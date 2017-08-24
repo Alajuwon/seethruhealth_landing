@@ -24,11 +24,22 @@
 body,html{
 	background-color: #C8C9CD;
 	height: auto;
+	width: 100%;
 }
 
 .navbar-default{
 	margin-bottom: 0px;
 }
+
+.email, a {
+	text-align: center;
+	font-style: italic;
+  font-size: xx-large;
+  color: black;
+}
+
+
+
 
 
 #foot-row{

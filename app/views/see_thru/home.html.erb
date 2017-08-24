@@ -20,8 +20,9 @@
 								<div class="col-md-10 col-sm-10 col-md-offset-1 col-sm-offset-1" id="cover-jr2">
 										<div class="col-md-5 col-sm-5">
 										<h3 class="touch"> Get in touch!</h3>
-										<h4 class="email">hello@seethru.healthcare</h4>
-										<p class="numb"> (914) 719-6113</p>
+									<h4 class="email"><%= mail_to "hello@seethru.healthcare", "hello@seethru.healthcare" %></h4>
+
+										<p class="numb"> (914) 719-6113</p> 
 										</div>
 									<div class="col-md-3 col-sm-8 col-md-offset-4 col-sm-offset-3">
 									<%= image_tag "seelogo.png", class: "logo-pic" %>
