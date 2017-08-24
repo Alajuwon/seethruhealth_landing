@@ -25,10 +25,24 @@
 
 }
 
+.touch{
+	text-align: center;
+  color: #00BEF2;
+  font-size: 5vw;
+  margin-top: 55px;
+}
+
+.numb{
+	text-align: center;
+	font-size: x-large;
+	color: black;
+	font-style: italic;
+}
 
 .logo-pic{
-	width: 60%;
-	margin-top: 100px;
+	width: 80%;
+	height: 170px;
+	margin-top: 75px;
 }
 
 .name{
@@ -59,10 +73,6 @@
 	font-style: italic;
   font-size: xx-large;
   color: black;
-}
-
-.email-line{
-	border: solid 2px white;
 }
 
 /*
